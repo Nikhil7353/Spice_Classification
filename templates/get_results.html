@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block title %}Login Page{% endblock %}
+
+
+{% block messages %}
+    {% if messages %}
+        <div style="background-color: #d4edda; border-color: #c3e6cb; color: #155724; padding: 15px; margin-bottom: 20px;">
+            {% for message in messages %}
+                {{ message }}
+            {% endfor %}
+        </div>
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+<h2 style = "color: rgb(0, 0, 0); margin-top: 20px;">Detection Results</h2>
+
+{% endblock %}
+
+
+
+{% block chatbot %}
+
+<div style = "align-items: center; margin-top: 100px; color: rgb(0, 0, 0);">
+    {% if result %}
+        <h2 style = "color: rgb(0, 0, 0);">{{ result }}</h2>
+    {% else %}   
+        <h2 style = "color: rgb(0, 0, 0);">NO results</h2>
+    {% endif %}
+    <br><br>
+    {% if description %}
+        <h4 style = "align-items: center; margin-left: 200px; margin-right: 200px;background-color: azure;color: rgb(0, 0, 0);">{{ description }}</h4>
+    {% else %}   
+        <h2 style = "color: white;"></h2>
+    {% endif %}
+
+</div>
+{% endblock %}
+
