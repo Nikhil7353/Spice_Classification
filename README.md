@@ -82,7 +82,7 @@ This project aims to help:
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the Repository
-```bash
+    bash
   - git clone https://github.com/yourusername/spice-identification.git
   - cd spice-identification
 
