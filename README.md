@@ -91,20 +91,20 @@ This project aims to help:
   - source env/bin/activate   # Linux/Mac
   - env\Scripts\activate      # Windows
 
-  pip install -r requirements.txt
+   pip install -r requirements.txt
 
-3️⃣ Run the Application
-  python manage.py runserver
-Open your browser and go to: http://127.0.0.1:8000/
+### 3️⃣ Run the Application
+ - python manage.py runserver
+ - Open your browser and go to: http://127.0.0.1:8000/
 
-📊 Model Development Process
+## 📊 Model Development Process
 
-1. Data Collection
+  1. Data Collection
     Custom dataset created with DSLR camera.
     5 spices: Clove, Green Cardamom, Cinnamon, Black Pepper, Coriander.
     40 original images per class, multiple angles, white background.
 
-2. Data Preprocessing
+  2. Data Preprocessing
     Resizing and normalization.
     Noise reduction.    
     Data augmentation using ImageDataGenerator:
@@ -112,25 +112,25 @@ Open your browser and go to: http://127.0.0.1:8000/
     Zoom (±10%)
     No flipping to preserve natural orientation.
 
-3. Feature Extraction
+  3. Feature Extraction
     Color histograms
     Texture features via GLCM (contrast, homogeneity, etc.)
     Shape features: area, perimeter, circularity.
 
-4. Algorithms Implemented
+  4. Algorithms Implemented
     Naive Bayes
     Decision Tree    
     k-Nearest Neighbors
     Random Forest
     Support Vector Machine
 
-5. Model Evaluation
+  5. Model Evaluation
     80% training / 20% testing split.
     Metrics: Accuracy, Precision, Recall, F1-score, Confusion Matrix.
 
 ---
 
-📈 Experimental Results
+## 📈 Experimental Results
 | Algorithm     | Accuracy (%) |
 | ------------- | ------------ |
 | Naive Bayes   | 88.00        |
@@ -139,7 +139,7 @@ Open your browser and go to: http://127.0.0.1:8000/
 | Random Forest | 92.00        |
 | **SVM**       | **96.00**    |
 
-📷 Screenshots
+## 📷 Screenshots
 1. Home Page
 
 2. Image Upload Interface
@@ -148,7 +148,7 @@ Open your browser and go to: http://127.0.0.1:8000/
 
 4. Detection Result with Nutritional Benefits
 
-🚀 Future Enhancements
+## 🚀 Future Enhancements
     Expand dataset with more spice categories.
     Use Convolutional Neural Networks (CNNs) for even higher accuracy.
     Develop mobile application for on-the-go detection.
