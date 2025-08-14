@@ -61,37 +61,35 @@ This project aims to help:
 ---
 
 ## 📂 Project Structure
-Spice-Identification/
-│── dataset/ # Original and augmented spice images
-│── models/ # Trained ML model files
-│── src/
-│ ├── data_preprocessing.py
-│ ├── feature_extraction.py
-│ ├── model_training.py
-│ ├── prediction.py
-│── webapp/
-│ ├── templates/ # HTML templates
-│ ├── static/ # CSS, JS, Images
-│ ├── views.py # Django views
-│ ├── urls.py # URL routing
-│── requirements.txt
-│── README.md
-
-
-
+- Spice-Identification/
+- │── dataset/ # Original and augmented spice images
+- │── models/ # Trained ML model files
+- │── src/
+- │ ├── data_preprocessing.py
+- │ ├── feature_extraction.py
+- │ ├── model_training.py
+- │ ├── prediction.py
+- │── webapp/
+- │ ├── templates/ # HTML templates
+- │ ├── static/ # CSS, JS, Images
+- │ ├── views.py # Django views
+- │ ├── urls.py # URL routing
+- │── requirements.txt
+- │── README.md
+  
 ---
 
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the Repository
 ```bash
-  git clone https://github.com/yourusername/spice-identification.git
-  cd spice-identification
+  - git clone https://github.com/yourusername/spice-identification.git
+  - cd spice-identification
 
-2️⃣ Create Virtual Environment & Install Dependencies
-  python -m venv env
-  source env/bin/activate   # Linux/Mac
-  env\Scripts\activate      # Windows
+### 2️⃣ Create Virtual Environment & Install Dependencies
+  - python -m venv env
+  - source env/bin/activate   # Linux/Mac
+  - env\Scripts\activate      # Windows
 
   pip install -r requirements.txt
 
