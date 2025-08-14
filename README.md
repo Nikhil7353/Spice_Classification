@@ -130,6 +130,8 @@ Open your browser and go to: http://127.0.0.1:8000/
     80% training / 20% testing split.
     Metrics: Accuracy, Precision, Recall, F1-score, Confusion Matrix.
 
+---
+
 📈 Experimental Results
 | Algorithm     | Accuracy (%) |
 | ------------- | ------------ |
