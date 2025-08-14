@@ -100,17 +100,17 @@ This project aims to help:
 ## 📊 Model Development Process
 
   1. Data Collection
-    Custom dataset created with DSLR camera.
-    5 spices: Clove, Green Cardamom, Cinnamon, Black Pepper, Coriander.
-    40 original images per class, multiple angles, white background.
+  - Custom dataset created with DSLR camera.
+  - 5 spices: Clove, Green Cardamom, Cinnamon, Black Pepper, Coriander.
+  - 40 original images per class, multiple angles, white background.
 
   2. Data Preprocessing
-    Resizing and normalization.
-    Noise reduction.    
-    Data augmentation using ImageDataGenerator:
-    Width & height shifts (±10%)
-    Zoom (±10%)
-    No flipping to preserve natural orientation.
+  - Resizing and normalization.
+  - Noise reduction.    
+  - Data augmentation using ImageDataGenerator:
+  - Width & height shifts (±10%)
+  - Zoom (±10%)
+  - No flipping to preserve natural orientation.
 
   3. Feature Extraction
     Color histograms
