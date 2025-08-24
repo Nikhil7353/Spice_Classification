@@ -158,6 +158,10 @@ This project aims to help:
 
 ## 📄 License
 
-** This project is open source under the MIT License. You are free to use, modify, and distribute it. **
+This project is open source under the MIT License. You are free to use, modify, and distribute it.
 
+## 🔗 Contribution
+Contributions, issues, and feature requests are welcome!
+Feel free to fork the repository and submit pull requests.
 
+## 📸 Screenshot / Demo
