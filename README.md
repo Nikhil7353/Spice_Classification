@@ -83,7 +83,7 @@ This project aims to help:
 
 ### 1️⃣ Clone the Repository
     bash
-  - git clone https://github.com/yourusername/spice-identification.git
+  - git clone https://github.com/Nikhil7353/spice-identification.git
   - cd spice-identification
 
 ### 2️⃣ Create Virtual Environment & Install Dependencies
