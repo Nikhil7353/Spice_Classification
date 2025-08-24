@@ -155,3 +155,9 @@ This project aims to help:
  - Develop mobile application for on-the-go detection.
  - Implement real-time camera-based detection.
  - Add global spice varieties beyond Indian spices.
+
+## 📄 License
+
+** This project is open source under the MIT License. You are free to use, modify, and distribute it.
+
+
