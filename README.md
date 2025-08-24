@@ -165,3 +165,6 @@ Contributions, issues, and feature requests are welcome!
 Feel free to fork the repository and submit pull requests.
 
 ## 📸 Screenshot / Demo
+
+<img width="1920" height="1080" alt="Screenshot 2025-08-24 082207" src="https://github.com/user-attachments/assets/427d8919-78c7-4129-9ae8-2653d5440a49" />
+
