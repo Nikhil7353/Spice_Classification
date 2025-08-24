@@ -158,6 +158,6 @@ This project aims to help:
 
 ## 📄 License
 
-__ This project is open source under the MIT License. You are free to use, modify, and distribute it.
+** This project is open source under the MIT License. You are free to use, modify, and distribute it. **
 
 
