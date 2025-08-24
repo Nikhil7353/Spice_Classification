@@ -9,8 +9,7 @@ This project aims to help:
 - Professional chefs
 - Food industry professionals
 - Researchers
-- Healthcare and wellness experts  
-…by providing **consistent, fast, and reliable spice recognition**.
+- Healthcare and wellness experts  by providing **consistent, fast, and reliable spice recognition**.
 
 ---
 
