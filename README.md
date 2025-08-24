@@ -164,7 +164,30 @@ This project is open source under the MIT License. You are free to use, modify, 
 Contributions, issues, and feature requests are welcome!
 Feel free to fork the repository and submit pull requests.
 
-## 📸 Screenshot / Demo
+## 📸 Screenshot
 
-<img width="1920" height="1080" alt="Screenshot 2025-08-24 082207" src="https://github.com/user-attachments/assets/427d8919-78c7-4129-9ae8-2653d5440a49" />
+### 🔧 1. Django Server Running in VS Code
+The development server is successfully launched using Django (python manage.py runserver). The system checks completed with no issues, and routes like /start_detection/ are responding correctly, confirming the backend is functional and listening at http://127.0.0.1:8000.
 
+<img width="1920" height="1080" alt="server_running" src="https://github.com/user-attachments/assets/2639c0b1-dc5b-478a-a143-5ecc1d601f77" />
+
+### 🏠 2. Home Page – Start Detection
+This is the application’s home screen, featuring a clean UI with spice images in the background. Users can click the green "Start Spice Detection" button to proceed to the detection interface. The layout is intuitive, ideal for both desktop and mobile views.
+
+<img width="1920" height="1020" alt="home_page" src="https://github.com/user-attachments/assets/016d8f7b-a9cb-41a9-8649-0371cebecc76" />
+
+### 📤 3. Image Upload Interface
+The Spices Detection screen allows users to upload an image of an Indian spice. Once an image is uploaded, it is previewed in the center box, and users can click "Detect" to initiate classification. The background remains consistent for brand continuity.
+
+<img width="1920" height="1080" alt="upload_interface" src="https://github.com/user-attachments/assets/edc8db11-e5d2-4f1b-922d-286c169e0ad4" />
+
+### 🖼️ 4. Uploaded Image Preview
+An image of Black Pepper has been uploaded and is now visible in the preview area. This step ensures users can verify the correct file before detection. It enhances usability and helps prevent incorrect classification due to wrong image uploads.
+This is a representative example. The same upload and preview process applies to all five spice classes: Clove, Green Cardamom, Cinnamon, Black Pepper, and Coriander.
+
+<img width="1920" height="1080" alt="image_uploaded" src="https://github.com/user-attachments/assets/9a6a564d-91e5-4f58-80fb-da959677b173" />
+
+### ✅ 5. Detection Result with Nutritional Info
+The detected spice is displayed clearly (Black pepper in this case), along with a detailed explanation of its health and nutritional benefits. This informative output is useful for chefs, researchers, or anyone curious about spice properties and health impacts.
+
+<img width="1920" height="1080" alt="detection_result" src="https://github.com/user-attachments/assets/38a1f744-0d94-4646-9d2d-127f51b2530e" />
