@@ -150,8 +150,8 @@ This project aims to help:
 4. Detection Result with Nutritional Benefits
 
 ## 🚀 Future Enhancements
-    Expand dataset with more spice categories.
-    Use Convolutional Neural Networks (CNNs) for even higher accuracy.
-    Develop mobile application for on-the-go detection.
-    Implement real-time camera-based detection.
-    Add global spice varieties beyond Indian spices.
+ - Expand dataset with more spice categories.
+ - Use Convolutional Neural Networks (CNNs) for even higher accuracy.
+ - Develop mobile application for on-the-go detection.
+ - Implement real-time camera-based detection.
+ - Add global spice varieties beyond Indian spices.
